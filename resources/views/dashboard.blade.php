@@ -9,6 +9,7 @@
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     @include('layouts.head')
+
 </head>
 
 <body>
@@ -36,7 +37,7 @@
             <div class="page-title">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h4 class="mb-0"> Dashboard</h4>
+                        <h4 class="mb-0">Dashboard</h4>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
@@ -681,6 +682,7 @@
 
     @include('layouts.footer-scripts')
 
+    @vite('resources/js/app.js')
 </body>
 
 </html>
